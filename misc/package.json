@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jsonld": "^5.2.0",
+    "sparql-http-client": "^2.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}

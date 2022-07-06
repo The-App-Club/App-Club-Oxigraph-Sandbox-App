@@ -1,0 +1,40 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://gitlab.com/-/snippets/2026980/raw/master/annotations.jsonld",
+  "type": "AnnotationCollection",
+  "label": "mozaic.fm's annotations",
+  "total": 2,
+  "first": {
+    "id": "https://gitlab.com/-/snippets/2026980/raw/master/annotations.jsonld#first",
+    "type": "AnnotationPage",
+    "startIndex": 0,
+    "items": [
+      {
+        "id": "https://gitlab.com/-/snippets/2026980/raw/master/mozaicfm-annotates-sparql.jsonld",
+        "type": "Annotation",
+        "body": {
+          "source": {
+            "id": "https://files.mozaic.fm/mozaic-ep73.mp3",
+            "type": "Audio",
+            "format": "audio/mpeg"
+          },
+          "purpose": "commenting",
+          "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "t=00:58:57,01:21:24"
+          }
+        },
+        "target": "http://www.wikidata.org/entity/Q54871"
+      },
+      {
+        "type": "Annotation",
+        "body": {
+          "id": "https://mozaic.fm/episodes/73/semantic-web.html",
+          "purpose": "describing"
+        },
+        "target": "https://files.mozaic.fm/mozaic-ep73.mp3"
+      }
+    ]
+  }
+}
